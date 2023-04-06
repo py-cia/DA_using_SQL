@@ -1,4 +1,4 @@
-<h1>Data Analysis using SQL in R</h1>
+<h1>Data Analysis using SQL & R</h1>
 <p>Uses the following libraries to connect to a SQL database in R:</p>
 <ul>
 <li>library(RSQLite)</li>
