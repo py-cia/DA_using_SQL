@@ -172,6 +172,9 @@ ggplot(data = sum_df, mapping = aes(x = height, y = avg_potential)) +
   labs(title = "Potential vs Height", x = "Height", y = "Avg_Potential") + 
   theme(panel.background = element_rect(fill = NA))
 
+# End connection to db
+dbDisconnect(con)
+
 
 
 
